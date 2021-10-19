@@ -10,3 +10,7 @@ def example_runner(arg: str):
 
 def join_strings(*args: Any, **_kwargs: Any) -> str:
     return ", ".join(args)
+
+
+def unique_per_deployment() -> str:
+    return "in test_repo older commit"
