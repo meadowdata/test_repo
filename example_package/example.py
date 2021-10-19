@@ -13,4 +13,4 @@ def join_strings(*args: Any, **_kwargs: Any) -> str:
 
 
 def unique_per_deployment() -> str:
-    return "in test_repo newer commit"
+    return "in test_repo test_branch"
