@@ -1,6 +1,6 @@
-name: myenv2
+name: test_repo_conda_env
 channels:
-  - hrichardlee
+  - meadowdata
   - conda-forge
   - defaults
 dependencies:
@@ -18,8 +18,8 @@ dependencies:
   - botocore=1.24.21=pyhd8ed1ab_1
   - bottleneck=1.3.4=py39hce1f21e_0
   - brotlipy=0.7.0=py39h27cfd23_1003
-  - ca-certificates=2022.3.18=h06a4308_0
-  - certifi=2021.10.8=py39h06a4308_2
+  - ca-certificates=2022.4.26=h06a4308_0
+  - certifi=2022.5.18.1=py39h06a4308_0
   - cffi=1.15.0=py39hd667e15_1
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
   - cloudpickle=2.0.0=pyhd3eb1b0_0
@@ -38,7 +38,7 @@ dependencies:
   - libprotobuf=3.19.1=h4ff587b_0
   - libsodium=1.0.18=h7b6447c_0
   - libstdcxx-ng=9.3.0=hd4cf53a_17
-  - meadowrun=0.1.2=py39_0
+  - meadowrun=0.1.7=py_0
   - mkl=2021.4.0=h06a4308_640
   - mkl-service=2.4.0=py39h7f8727e_0
   - mkl_fft=1.3.1=py39hd3c417c_0
@@ -48,7 +48,7 @@ dependencies:
   - numexpr=2.8.1=py39h6abb31d_0
   - numpy=1.21.2=py39h20f2e39_0
   - numpy-base=1.21.2=py39h79a1101_0
-  - openssl=1.1.1n=h7f8727e_0
+  - openssl=1.1.1o=h7f8727e_0
   - packaging=21.3=pyhd3eb1b0_0
   - pandas=1.4.1=py39h295c915_1
   - paramiko=2.8.1=pyhd3eb1b0_0
@@ -79,4 +79,4 @@ dependencies:
   - xz=5.2.5=h7b6447c_0
   - yarl=1.6.3=py39h27cfd23_0
   - zlib=1.2.11=h7f8727e_4
-prefix: /opt/conda/envs/myenv2
+prefix: /home/kurts/anaconda3/envs/test_repo_conda_env
