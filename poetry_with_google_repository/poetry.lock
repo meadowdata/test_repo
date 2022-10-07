@@ -1,0 +1,35 @@
+[[package]]
+name = "cloudpickle"
+version = "2.1.0"
+description = "Extended pickling support for Python objects"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
+name = "py-simple-package"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = ">=3.9,<4.0"
+
+[package.source]
+type = "legacy"
+url = "https://us-east1-python.pkg.dev/meadowrun-playground/test-py-repo/simple"
+reference = "googlecloud"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "b7c1cecaed9c3895838e3d2b4362b26385dffff6058041854d1070bad525ef70"
+
+[metadata.files]
+cloudpickle = [
+    {file = "cloudpickle-2.1.0-py3-none-any.whl", hash = "sha256:b5c434f75c34624eedad3a14f2be5ac3b5384774d5b0e3caf905c21479e6c4b1"},
+    {file = "cloudpickle-2.1.0.tar.gz", hash = "sha256:bb233e876a58491d9590a676f93c7a5473a08f747d5ab9df7f9ce564b3e7938e"},
+]
+py-simple-package = [
+    {file = "py_simple_package-0.1.0-py3-none-any.whl", hash = "sha256:21da97954712312cba90394f67cbc305f9baacda38b98226eaafdefb12dde254"},
+    {file = "py_simple_package-0.1.0.tar.gz", hash = "sha256:ccdf300e61154b0e26e74511d77b4ed6ff4777e959ffd223b18551f425a7237b"},
+]

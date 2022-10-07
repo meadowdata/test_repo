@@ -1,0 +1,4 @@
+--extra-index-url https://us-east1-python.pkg.dev/meadowrun-playground/test-py-repo/simple/
+geopy
+py-simple-package
+cloudpickle==2.1.0

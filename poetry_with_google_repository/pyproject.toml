@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "py-gcloud-pypi-consumer"
+version = "0.1.0"
+description = ""
+authors = ["Hyunho Richard Lee <hrichardlee@gmail.com>"]
+readme = "README.md"
+packages = [{include = "py_gcloud_pypi_consumer"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+py-simple-package = "^0.1.0"
+cloudpickle = "2.1.0"
+
+
+[[tool.poetry.source]]
+name = "googlecloud"
+url = "https://us-east1-python.pkg.dev/meadowrun-playground/test-py-repo/simple/"
+default = false
+secondary = false
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
