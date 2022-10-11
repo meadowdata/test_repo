@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "poetry_editable"
+version = "0.1.0"
+description = ""
+authors = ["Hyunho Richard Lee <hrichardlee@gmail.com>"]
+packages = [
+    { include = "foo_package"},
+]
+
+[tool.poetry.scripts]
+main = 'foo_package.main:main'
+
+[tool.poetry.dependencies]
+python = "^3.9"
+meadowrun = "^0.1.13"
+pandas = "^1.4.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
