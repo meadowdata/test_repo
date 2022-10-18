@@ -6,7 +6,7 @@ authors = ["Hyunho Richard Lee <hrichardlee@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-requests = { git = "https://github.com/requests/requests.git@v2.28.0", branch = "main" }
+requests = { git = "https://github.com/requests/requests.git", tag = "v2.28.0" }
 meadowrun = "^0.1.13"
 pandas = "^1.4.3"
 
