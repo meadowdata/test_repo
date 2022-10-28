@@ -17,7 +17,7 @@ Creating myenv.yml from scratch in a `test_repo_conda_env` environment - needs t
 conda env create -n test_repo_conda_env
 conda activate test_report_conda_env
 conda install requests pandas meadowrun -c defaults -c conda-forge -c meadowdata
-conda env export > myenv.yml
+conda env export > conda_env_export.yml
 ```
 
 ## Pip environment in requirements.txt
